@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+.lol {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+.green {
+    color: green;
+}
+@media (min-width: 700px) {
+    .lol {
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 20px;
+        align-items: center;
+        
+    }
+}
